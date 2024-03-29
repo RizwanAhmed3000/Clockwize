@@ -25,9 +25,5 @@ class MainActivity : ReactActivity() {
                 super.onResume()
                 SplashScreen.hide(this@MainActivity) // Hide the splash screen when the activity is resumed
             }
-
-            override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(null)
-  }
         }
 }
